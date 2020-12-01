@@ -1,0 +1,32 @@
+#+TITLE: CakeML Build on CentOS8
+#+PROPERTY: header-args :session *shell cakeml* :results silent raw
+
+** Go to the working directory
+
+#+BEGIN_SRC sh
+cd ~
+#+END_SRC
+
+** Download CakeML
+
+#+BEGIN_SRC sh
+curl -L https://github.com/CakeML/cakeml/releases/download/v1370/cake-x64-64.tar.gz > cake-x64-64.tar.gz
+#+END_SRC
+
+** Extract the archive
+
+#+BEGIN_SRC sh
+tar -xzvf cake-x64-64.tar.gz
+#+END_SRC
+
+** Change directory
+
+#+BEGIN_SRC sh
+cd ~/cake-x64-64
+#+END_SRC
+
+** Build CakeML
+
+#+BEGIN_SRC sh
+make
+#+END_SRC
