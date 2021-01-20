@@ -7,6 +7,12 @@
 cd ~
 #+END_SRC
 
+** Install dependences
+
+#+BEGIN_SRC sh
+sudo yum install -y make gcc-c++
+#+END_SRC
+
 ** Download CakeML
 
 #+BEGIN_SRC sh
